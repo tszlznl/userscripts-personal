@@ -36,6 +36,20 @@
 - 不向第三方服务器发送数据；所有请求都发往 x.com，并复用当前浏览器的登录态
 - 回复缓存只保存在页面内存和 sessionStorage 中，刷新后重新获取
 
+### telegram-media-downloader.user.js
+
+从禁止下载的 Telegram Web 频道下载图片、视频和语音消息。
+
+- 来源：[Neet-Nestor/Telegram-Media-Downloader](https://github.com/Neet-Nestor/Telegram-Media-Downloader)（作者 Nestor Qin，GPLv3）
+- 安装：https://raw.githubusercontent.com/tszlznl/userscripts-personal/master/telegram-media-downloader.user.js
+
+### twitter-x-post-toolbar.user.js
+
+在 X/Twitter 的帖子菜单中增加截图、复制、批量下载图片和截取整个帖子串的按钮。
+
+- 来源：Greasy Fork「Twitter Screenshot Button」（脚本 532781，MIT）
+- 安装：https://raw.githubusercontent.com/tszlznl/userscripts-personal/master/twitter-x-post-toolbar.user.js
+
 ## 提交约定
 
 - 每个脚本一个 `.user.js` 文件放在仓库根目录，脚本多了再按目录拆分
